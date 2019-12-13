@@ -7,11 +7,27 @@ header {
     height: 200px;
 }
 
+body {
+    background-color: #EEE;
+}
+
+
+#header {
+    border-bottom: 4px solid #FF0000;
+    background-color: #FFF;
+}
 .light {
     color: #FFF;
 }
 
 .light-title {
+    text-align: center;
+}
+.shadow-title {
+    color: white;
+    font-size: 50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: red;
     text-align: center;
 }
 
@@ -40,12 +56,11 @@ header {
     padding: .1em .3em;
 }
 .badge-primary {
- background-color: #062c33;
+   background-color: #062c33;
 }
 .card {
     min-height: 600px;
     margin-top: 30px;
-    background-color: rgba(0,0,0,0);
 }
 .card-text {
     height: 120px;
@@ -57,7 +72,6 @@ header {
 }
 .layout {
     padding: 10px 0;
-    background-color: red;
 }
 #warning {
     background-color: yellow;
@@ -79,6 +93,8 @@ footer {
     min-height: 200px;
     margin-top: 30px;
     border-top: 4px solid #000;
+    background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(145,8,8,1) 100%);
 }
 
 .mar-top {
@@ -87,4 +103,25 @@ footer {
 
 .semi-light {
     color: #555;
+}
+
+.btn-outline-insect {
+    color: #729F3F;
+    border: 1px solid #729F3F;
+}
+
+.btn-outline-insect:hover {
+    background-color: #729F3F;
+    color: #FFF;
+}
+
+.btn-outline-info {
+    color: #15f3bc;
+    border: 1px solid #15f3bc;
+}
+
+.btn-outline-info:hover {
+    background-color: #15f3bc;
+    border: 1px solid #15f3bc;
+    color: #FFF;
 }
