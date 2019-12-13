@@ -26,7 +26,7 @@ body {
 .shadow-title {
     color: white;
     font-size: 50px;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: red;
     text-align: center;
 }
