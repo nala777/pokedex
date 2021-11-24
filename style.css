@@ -34,6 +34,11 @@ header {
     background-color: rebeccapurple;
     border-color: rebeccapurple;
 }
+
+.btn-outline-success {
+    background-color: #729F3F;
+}
+
 .badge {
     margin-right: 4px;
     font-size: 60%;
